@@ -13,10 +13,10 @@ public class ageGame {
 		
 		if(age < 13); 
 		{
-			System.out.print("Children suck. You are why I will not have kids.");
+			result = "Children suck. You are why I will not have kids.";
 		}
 		
-		else if(age > 12 && age < 19) 
+		if(age > 12 && age < 19) 
 		{
 			result = "You are a teenager lol. go listen to green day or something.";
 		}
@@ -25,9 +25,21 @@ public class ageGame {
 		{
 			result = "Get a job loser";
 		}
-		
-
+		else if(age > 25 && age < 40)
+		{
+			result = "I bet you don't have a partner, nor any children because you are lonely";
+		}
+		else if(age > 39 && age < 60)
+		{
+			result = "Just dig your grave already";
+		}
+		else if(age > 59)
+		{
+			result = "You look like a skeleton";
+		}
+		displayMessage(result);
 	}
-	public static void displayMessage(result) {
-		System.out.print(result); }
+	public static void displayMessage(String result) {
+		System.out.println(result);
+	}
 }
