@@ -27,11 +27,11 @@ public class ageGame {
 		}
 		else if(age > 25 && age < 40)
 		{
-			result = "I bet you don't have a partner, nor any children because you are lonely";
+			result = "u r dummy";
 		}
 		else if(age > 39 && age < 60)
 		{
-			result = "Just dig your grave already";
+			result = "Better start digging your grave";
 		}
 		else if(age > 59)
 		{
