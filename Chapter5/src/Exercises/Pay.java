@@ -6,6 +6,11 @@ public class Pay {
 		// TODO Auto-generated method stub
 		
 		//this has to be the worst thing i have ever made
+		//not kidding
+		
+		
+		
+		//i'm sorry
 		
 		int skill;
 		int hours;
