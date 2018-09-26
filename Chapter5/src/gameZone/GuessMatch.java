@@ -10,10 +10,10 @@ public class GuessMatch {
 		int number;
 		int quit;
 		do {
-		 System.out.print("Guess a number between 1 and 5: ");
+		 System.out.print("Guess a number between 1 and 10: ");
 		 guess = input.nextInt();
 		 
-		number = (1  + (int)(Math.random() * 5));
+		number = (1  + (int)(Math.random() * 10));
 		goHome(guess, number);
 		System.out.println("Do you want to quit? 1 for yes, 2 for no.");
 		quit = input.nextInt();
