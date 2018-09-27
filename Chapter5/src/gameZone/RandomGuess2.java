@@ -1,6 +1,6 @@
 package gameZone;
 import java.util.Scanner;
-public class GuessMatch {
+public class RandomGuess2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

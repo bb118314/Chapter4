@@ -124,7 +124,7 @@ public class Pay {
 				insurance = input.nextInt();
 				if(insurance == 1)
 				{
-					finalpay = pay + overtime;
+					finalpay = pay;
 					netpay = finalpay - 32.50;
 					System.out.println("You worked " + hours + " hours this week and are skilled at level " + skill);
 					System.out.println("You receive $20 an hour");
@@ -136,7 +136,7 @@ public class Pay {
 				}
 				if(insurance == 2)
 				{
-					finalpay = pay - 20;
+					finalpay = pay;
 					netpay = finalpay - 20;
 					System.out.println("You worked " + hours + " hours this week and are skilled at level " + skill);
 					System.out.println("You receive $20 an hour");
@@ -148,7 +148,7 @@ public class Pay {
 				}
 				if(insurance == 3)
 				{
-					finalpay = pay - 10;
+					finalpay = pay;
 					netpay = finalpay - 22;
 					System.out.println("You worked " + hours + " hours this week and are skilled at level " + skill);
 					System.out.println("You receive $20 an hour");
